@@ -5,9 +5,9 @@ app = Flask(__name__)
 
 @app.route('/')
 def test1():
-	return 'hello world'
+	return 'x-me-v1.0'
 
 
 @app.route('/test')
 def test2():
-	return '/test hello world'
+	return 'x-me-v1.0/test'
